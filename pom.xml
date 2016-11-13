@@ -227,6 +227,8 @@
                 <env>
                   <JAVA_LIB_DIR>/deployments/lib</JAVA_LIB_DIR>
                   <JAVA_MAIN_CLASS>org.apache.camel.cdi.Main</JAVA_MAIN_CLASS>
+                  <BROKER_AMQ_TCP_USERNAME>ossl</BROKER_AMQ_TCP_USERNAME>
+                  <BROKER_AMQ_TCP_PASSWORD>ossl</BROKER_AMQ_TCP_PASSWORD>
                 </env>
               </build>
             </image>
